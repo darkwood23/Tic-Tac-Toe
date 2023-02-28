@@ -5,21 +5,12 @@
 }
 
 .main-body {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
 }
 
-.border-divs {
+.boxes {
     border: 2px solid black;
     padding: 1rem;
-}
-
-.header {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-.all-elements {
-    display: flex;
-    flex-direction: column;
 }
