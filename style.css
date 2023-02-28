@@ -137,7 +137,7 @@ body {
 }
 
 .winning-message button:hover {
-    background-color: white;
+    background-color: black;
     border-color: white;
     color: white;
 }
